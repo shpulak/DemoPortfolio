@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: Segoe UI, sans-serif;
+}
+/* HEADER STYLES */
+header{
+    background: #FDFDFE;
+    color: #ffffff;
+    padding: 10px 30px;
+}
+
+/* logo inside header */
+header #logo{
+    color: white;
+    text-decoration: none;
+    width: 49%;
+    display: inline-block
+}
+
+header img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+header h2{
+    font-size: 18px;
+    color: #1B2F40
+}
+
+header #main-navigation{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+
+header #main-navigation ul{
+    list-style: none;
+    padding: 0;
+}
+
+header #main-navigation ul li{
+    display: inline-block;
+}
+
+header #main-navigation ul li a {
+    color: #1B2F40;
+    text-decoration: none;
+    padding:  10px 15px;
+}
+
+header #main-navigation ul li a:hover{
+    background: #1B2F40;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+    color: white
+}
+
+/* ABOUT ME STYLES*/
+.about{
+    background: #1B2F40;
+    padding: 40px;
+    min-height: 450px;
+}
+.about-main {
+    height: 80%;
+    margin: auto;
+    padding: 20px;
+    display: inline-block;
+    margin: 20px
+}
+
+#about-profile-img{
+    width: 20%;
+    vertical-align: middle;
+    margin:20px;
+}
+
+#about-divider{
+    width: 70px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+#about-text {
+    color:white;
+    width: 40%;
+    text-align: center;
+    vertical-align: middle;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio-main{
+    text-align: center;
+    padding: 20px
+}
+.portfolio-main h2{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.portfolio-main-inside {
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.portfolio-box{
+    display: inline-block;
+    padding: 20px
+}
+.portfolio-box img{
+    max-width:  400px;
+    opacity: 0.5;
+    border-radius: 2%;
+}
+
+/* CONTACT ME STYLES */
+.contact-container{
+     background: #587A97;   
+}
+#contact{
+    width: 75%;
+    min-height: 450px;
+    padding: 20px;
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-inside{
+    width: 45%;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 50px;
+}
+.contact-text{
+    color: #FEFFFF;
+    padding: 10px;
+    vertical-align: middle
+}
+.contact-text h3{
+    font-size: 40px;
+    vertical-align: middle;
+}
+.contact-text h4{
+    font-size: 20px;
+    vertical-align: middle;
+}
+.contact-form{
+    min-width: 400px;
+    margin: 10px;
+    vertical-align: middle;
+}
+.contact-form input {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+}
+.contact-form .button-submit{
+    padding: 10px;   
+    font-family: Segoe UI,sans-serif;
+    font-size: 15px;
+    background: #54A9EE;
+    width: 30%;
+    font-weight: 500;
+    color: #FEFFFF;
+}
+textarea{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    min-height: 100px;
+}
+.social-links img{
+    width: 50px;
+    border-radius: 50%;
+}
+.social-links img:hover{
+    transition: 0.3s ease all;
+}
+
+/*  FOOTER STYLES  */
+footer{
+    background: #1B2F40;
+    color: #999;
+    padding: 30px;
+    text-align: center;
+}
